@@ -1,0 +1,43 @@
+# Ignore sensitive files and local artifacts
+# DO NOT commit these to GitHub!
+
+# OCI credentials
+*.pem
+*.key
+oci_config
+.oci/
+
+# SSH keys
+id_rsa
+id_rsa.pub
+id_ed25519
+id_ed25519.pub
+.ssh/
+
+# Environment variables (if any)
+.env
+*.env
+
+# Log files
+*.log
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Lock files (runtime generated)
+*.lock
