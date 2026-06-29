@@ -60,8 +60,8 @@ IMAGE_ID = get_env("OCI_IMAGE_ID")
 SSH_PUBLIC_KEY = get_env("SSH_PUBLIC_KEY")
 
 SHAPE = "VM.Standard.A1.Flex"
-OCPUS = 4  # or 2 if you want to split across 2 instances
-MEMORY_IN_GBS = 24  # or 12 if splitting
+OCPUS = 2  # or 4 if you want in 1 instance
+MEMORY_IN_GBS = 12 
 BOOT_VOLUME_SIZE = 50
 DISPLAY_NAME = "free-tier-arm-a1"
 
